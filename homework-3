@@ -8,9 +8,9 @@ int main()
     a = PI * r * r;
     b = 4 * PI * r * r;
     c = 4 * PI * r * r * r / 3;
-    printf("area=%10f\n", a);
-    printf("surface a=%10f\n", b);
-    printf("volume=%10f\n", c);
+    printf("area=%.10f\n", a);
+    printf("surface a=%.10f\n", b);
+    printf("volume=%.10f\n", c);
     system("pause");
     return 0;
 }
